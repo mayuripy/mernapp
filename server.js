@@ -7,8 +7,9 @@ const app =express();
 const port=process.env.PORT ||5000;
 
 app.get("/api/contacts",(req,res)=>{
-    res.send("get all contacts !")
+    res.send({message:"get all contacts !"})
 });
+//app.put("/api/contacts",)
 
 app.listen(port,() =>{
     console.log(`server is running  ${port}`);
