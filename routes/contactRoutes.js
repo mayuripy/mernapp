@@ -2,6 +2,6 @@ const express = require("express");
 const router = express.Router();
 
 
-router.routes("/api/contacts",(req,res)=>{
-    res.json({message:"get all contacts !"})
+router.route("/").get((req,res)=>{
+    res.status(200).json({message:"get all contacts !"})
 })
