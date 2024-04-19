@@ -6,9 +6,7 @@ const app =express();
 
 const port=process.env.PORT ||5000;
 
-app.get("/api/contacts",(req,res)=>{
-    res.json({message:"get all contacts !"})
-});
+app.use("/api/contscts", require("./routes/constactRouters"));
 //app.put("/api/contacts",)
 
 app.listen(port,() =>{
