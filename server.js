@@ -10,5 +10,5 @@ app.use("/api/contscts", require("./routes/constactRouters"));
 //app.put("/api/contacts",)
 
 app.listen(port,() =>{
-    console.log(`server is running  ${port}`);
+    console.log(`running server $ {port}`);
 });
