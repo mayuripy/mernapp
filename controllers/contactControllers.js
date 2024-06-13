@@ -15,10 +15,12 @@ const updateContact = (req,res)=>{
 };
 
 
-
 const deleteContact = (req,res)=>{
-    res.status(200).json({message:`delete contact for ${req.params.id}`});
-}
+    res.status(200).json({message:`Delete contact for ${req.params.id}`});
+};
+
+
+
 
 
 
