@@ -24,14 +24,4 @@ const deleteContact = (req,res)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
 module.exports ={getContacts,createContact,getContact,updateContact,deleteContact};
